@@ -1,0 +1,72 @@
+ body {
+    display: flex; /* added flex to use align-items */
+    flex-direction: column; /* stack children vertically */
+    align-items: center;
+    background-image: url('giphy.webp');;
+    padding: 25px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #00888F;
+    padding-bottom: 100px;
+    border-radius: 20px;/* optional to remove default margin */
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #BBBACC;
+     /* corrected property */
+    text-align: center;
+    padding: 5px; /* optional padding */
+    border-radius: 20px;
+   border: 1px solid blue;
+   margin-top: 20px;
+ }
+
+button {
+  background-color: #072C8A;       /* Soft pink/red color */
+  color: #BBBACC;                    /* White text */
+  border: none;                   /* Remove default border */
+  border-radius: 25px;            /* Rounded edges */
+  padding: 15px 30px 15px 30px;             /* Good padding for a button */
+  font-size: 16px;                /* Nice readable size */
+  font-weight: 600;               /* Semi-bold */
+  cursor: pointer;                /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #072C8A;         /* Darker pink on hover */
+  transform: scale(1.05);            /* Slightly bigger */
+}
+
+button:focus {
+  outline: none;                     /* Remove outline */
+  box-shadow: 0 0 0 3px #00888F;    /* Glow effect on focus */
+
+}
+}
+
+/* New style to align buttons horizontally */
+.button-row {
+  display: flex;
+  gap: 15px;               /* space between buttons */
+  justify-content: center; /* center horizontally */
+  margin-top: 20px;        /* optional spacing from above */
+.user{
+    margin-bottom: 5px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.pass{
+    margin-top: 5px;
+    margin-bottom: 5px;    
+    background: transparent;  
+    border: 2px solid black;
+    border-radius: 40px;

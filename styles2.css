@@ -1,0 +1,12 @@
+body{
+    background-image: url('giphy.webp');
+    text-align: center;
+    color: #518B9Dff;
+}
+.home{
+    font-weight: bold;
+    padding: 5px 10x;
+    border: none;
+    background: white;
+    color: #518B9Dff;
+}

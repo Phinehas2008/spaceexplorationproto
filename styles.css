@@ -31,3 +31,7 @@ h1{
 h3{
     margin-bottom: auto;
 }
+.terms{
+    diplay: flex;
+    align-items: end;
+}
